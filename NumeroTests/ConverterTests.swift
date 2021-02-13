@@ -30,7 +30,7 @@
 import XCTest
 @testable import Numero
 
-class ConverterTests: XCTest {
+class ConverterTests: XCTestCase {
   var converter: Converter!
   
   override func setUp() {
@@ -45,7 +45,7 @@ class ConverterTests: XCTest {
   
   func testConversionForOne() {
     let result = converter.convert(1)
-    XCTAssertEqual(result, "I", "Conversion for 1 is correct.")
+    XCTAssertEqual(result, "I", "Conversion for 1 is incorrect")
   }
-  
+
 }
