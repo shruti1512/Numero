@@ -52,6 +52,7 @@ class ConverterTests: XCTestCase {
     let result = converter.convert(2)
     print("Test print1")
     print("Test print2")
+    print("Test print3")
     XCTAssertEqual(result, "II", "Conversion for 2 is incorrect")
   }
 
