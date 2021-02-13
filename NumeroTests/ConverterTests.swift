@@ -54,6 +54,7 @@ class ConverterTests: XCTestCase {
     print("Test print2")
     print("Test print3")
     print("Test print4")
+    print("Test print5")
     XCTAssertEqual(result, "II", "Conversion for 2 is incorrect")
   }
 
